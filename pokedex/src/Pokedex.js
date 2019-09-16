@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pokecard } from "./Pokecard"
+import  Pokecard from "./Pokecard"
 
 
 class Pokedex extends React.Component {
@@ -7,7 +7,8 @@ class Pokedex extends React.Component {
     console.log("PP", this.props.pokemonArray);
     return (
       <div>
-        {this.props.pokemonArray.forEach(pokemon =><Pokecard pokemon={pokemon} />)}
+        {this.props.pokemonArray.map(pokemon => <Pokecard pokemon={pokemon} />)}
+
       </div>
 
     )
