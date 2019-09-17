@@ -1,9 +1,8 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 
 class Pokecard extends React.Component {
   render() {
-    console.log("3");
-    console.log("Pokemon ", this.props.pokemon);
     const { id, name, type, base_experience } = this.props.pokemon;
     const imageURL = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`
 

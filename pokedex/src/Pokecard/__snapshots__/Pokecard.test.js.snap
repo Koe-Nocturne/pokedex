@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches screenshot. 1`] = `
+<div>
+  <p>
+    Charmander
+  </p>
+  <img
+    src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+  />
+  <p>
+    Type: 
+    fire
+  </p>
+  <p>
+    EXP: 
+    62
+  </p>
+</div>
+`;
